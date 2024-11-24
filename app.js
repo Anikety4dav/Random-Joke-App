@@ -14,7 +14,7 @@ const getJokes = async () => {
     // console.log(data.punchline);
     jokePunchLine.innerText = data.punchline;
     jokeBtn.innerText = "see jokes";
-    ackBtn.innerText = "Lol! Tap again have more fun!"
+    ackBtn.innerText = "Lol! Tap again to have more fun!"
 };
 
 jokeBtn.addEventListener("click", getJokes);
